@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio Alura</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="img/Logo.png" alt="Logo">
+    </header>
+    <div class="content">
+ <!--- AQUI EMPIEZA LA PRIMERA SECCION -->
+        <section id="form" class="form">
+            <textarea placeholder="Ingrese el texto aqui" class="text-area" name="textoEncriptador" cols="30" rows="10"></textarea>
+            <div class="informacion">
+                <img src="img/Icono.png" alt="Vector" >
+                <p>Solo letras minúsculas y sin acentos</p>                
+            </div>
+            <div class="botones">
+                <button class="boton-encriptar" onclick="btnEncript()">Encriptar</button>
+                <button class="boton-desencriptar" onclick="btnDesencript()">Desencriptar</button>
+            </div>
+        </section>
+<!--- AQUI EMPIEZA LA SEGUNDA SECCION DONDE SE DESENCRIPTA Y MUESTRA EL RESULTADO-->
+        <section class="resultado">
+            <div id="into">
+                <img src="img/foto.png" alt="Foto">
+                <div>
+                    <h2>Ningún mensaje fue encontrado</h2>
+                    <p>Ingresa el texto que desees encriptar o desencriptar.</p>
+                </div>
+            </div>            
+            <div id="resultado-ok" class="bloque-resultado">
+                <textarea disabled placeholder="" class="mensaje" cols="30" rows="5"></textarea>
+                <button class="btn-copy" onclick="copy()">Copiar</button>
+            </div>            
+        </section>
+    </div>
+    <footer>
+        Alexander Salazar - ONE - Desafio Alura
+    </footer>
+</body>
+<script src="script.js"></script>
+</html>
