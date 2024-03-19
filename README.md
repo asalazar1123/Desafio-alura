@@ -6,7 +6,7 @@ Javascript - HTML - CSS
 
 ## Capturas de pantalla 📷
 
-![GitHub](img/Captura1.jpg)
+![GitHub](./img/Captura1.jpg)
 
 ## Demo
 [Encriptador](https://asalazar1123.github.io/Desafio-alura/)
